@@ -8,6 +8,17 @@
     justify-content: end;       
 }
 
+
+header {
+    background-image: url("./imagen/COCHE\ ROJO.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
 .menu{
     display: flex;
     width: 60%;
@@ -27,25 +38,33 @@
 }
 
 .pie{
+    padding-top: 350px; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1680px;
+   
+    min-width: auto;
+    color: aliceblue;
+     
+.pie_old{
     position: absolute; 
     left:0px; 
     right:0px; 
     bottom:0px; 
+    top: 100%;
     height: 150px; 
     z-index:0;
     color: aliceblue;
 }
 .button{
-    position:absolute; 
-    left:0px; 
-    right:0px; 
-    bottom:0px; 
-    height:0px; 
-    z-index:0;
+
+    height: 100%;
+    width: 100%;
     background-color: blueviolet;
     color: white;
 }
 
 .padre_main{
-    position: relative;
+    position: absolute;
+    padding-top: 50px;
 }
